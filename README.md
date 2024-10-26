@@ -27,18 +27,15 @@ shouldWakeUp (true, 8); => false dönmeli.(8'den sonra ise tepki vermeliyiz.)
 shouldWakeUp (true, -1); => false dönmeli(-1 geçersiz değer)
 
 
-### Yaş Tespiti
-
-* ```hasTeen``` isimli 3 tane parametre alan bir metod yazmak istiyoruz.
-* 3 parametreden herhangi biri eğer 13-19 arasındaysa metod ```true``` değer dönmeli
-* Diğer şartlarda ```false``` değer dönmeli.
-
+#Yaş Tespiti
+hasTeen isimli 3 tane parametre alan bir metod yazmak istiyoruz.
+3 parametreden herhangi biri eğer 13-19 arasındaysa metod true değer dönmeli
+Diğer şartlarda false değer dönmeli.
 hasTeen(9, 99, 19); => true dönmeli.(19 değerinden dolayı)
 
 hasTeen(23, 15, 42); => true dönmeli.(15 değerinden dolayı)
 
 hasTeen(22, 23, 34); => false dönemli(Hiçbir değer 13-19 arasında değil.)
-
 
 
 ### Oyuncu Kedi

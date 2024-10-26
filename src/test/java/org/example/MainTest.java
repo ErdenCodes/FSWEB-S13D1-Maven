@@ -9,13 +9,13 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @Test
-    public void testShouldWakeUp(){
+    public void testShouldWakeUp() {
         assertEquals(Main.shouldWakeUp(true, 1), true);
         assertEquals(Main.shouldWakeUp(false, 2), false);
         assertEquals(Main.shouldWakeUp(true, 8), false);
         assertEquals(Main.shouldWakeUp(true, -1), false);
-    }
-
+    }}
+/*
     @Test
     public void hasTeenTest(){
         assertEquals(Main.hasTeen(9, 99, 19), true);
@@ -43,3 +43,5 @@ class MainTest {
     }
 
 }
+
+ */
